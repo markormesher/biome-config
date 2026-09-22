@@ -16,6 +16,6 @@ Add it to `biome.json`:
 
 ```json
 {
-  "extends": ["@markormesher/biome-config"]
+  "extends": ["@markormesher/biome-config/biome-config"]
 }
 ```
