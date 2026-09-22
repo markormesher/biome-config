@@ -1,0 +1,21 @@
+{
+  "name": "@markormesher/biome-config",
+  "type": "module",
+  "version": "0.0.0",
+  "author": "Mark Ormesher",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markormesher/biome-config.git"
+  },
+  "scripts": {
+    "lint": "biome ./"
+  },
+  "files": [
+    "./biome.json"
+  ],
+  "exports": {
+    "./biome": "./biome.json"
+  },
+  "packageManager": "pnpm@11.12.0"
+}
