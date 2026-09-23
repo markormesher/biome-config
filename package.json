@@ -17,5 +17,5 @@
   "exports": {
     "./biome-config": "./biome.json"
   },
-  "packageManager": "pnpm@11.12.0"
+  "packageManager": "pnpm@12.5.1"
 }
