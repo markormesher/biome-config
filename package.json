@@ -9,7 +9,7 @@
     "url": "git+https://github.com/markormesher/biome-config.git"
   },
   "scripts": {
-    "lint": "biome ./"
+    "lint": "biome lint"
   },
   "files": [
     "./biome.json"
@@ -17,5 +17,8 @@
   "exports": {
     "./biome-config": "./biome.json"
   },
-  "packageManager": "pnpm@12.5.1"
+  "packageManager": "pnpm@12.5.1",
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.14"
+  }
 }
