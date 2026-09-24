@@ -6,7 +6,7 @@ jobs:
   check-root-js:
     runs-on: ubuntu-latest
     container:
-      image: docker.io/node:25.9.0
+      image: docker.io/node:25.9.0@sha256:78839ac448c23517f8eab2e8f7943d9b4f73979eb7f8bed2c73dbf72ff869e7b
     steps:
       - uses: markormesher/ci-resources/setup@62ded02daecfff84429580ffb8539b570ec5ba5e # v0.9.0
       - run: npm install -g --force yarn pnpm
