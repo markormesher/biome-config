@@ -17,6 +17,14 @@
 			"a11y": "off",
 			"complexity": {
 				"noImportantStyles": "off"
+			},
+			"suspicious": {
+				"useIterableCallbackReturn": {
+					"level": "on",
+					"options": {
+						"checkForEach": false
+					}
+				}
 			}
 		}
 	},
