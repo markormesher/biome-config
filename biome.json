@@ -1,6 +1,6 @@
 {
 	"files": {
-		"includes": ["**", "!node_modules", "!build", "!dist", "!package.json"]
+		"includes": ["**", "!node_modules", "!build", "!dist", "!package.json", "!*_pb.ts"]
 	},
 	"formatter": {
 		"enabled": true,
