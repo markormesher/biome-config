@@ -1,6 +1,6 @@
 # @markormesher/biome-config
 
-Standard [Biome](https://biomejs.dev) config for my TypeScript/React/SCSS projects.
+Standard [Biome](https://biomejs.dev) config for my TypeScript/React/CSS projects.
 
 ## Installation and Usage
 
