@@ -1,6 +1,6 @@
 {
 	"files": {
-		"includes": ["**", "!node_modules", "!build", "!dist", "!package.json", "!pnpm-*.yaml", "!*/gen/*"]
+		"includes": ["**", "!node_modules", "!build", "!dist", "!package.json", "!pnpm-*.yaml", "!*/gen/*", "!*/*_gen/*"]
 	},
 	"formatter": {
 		"enabled": true,
