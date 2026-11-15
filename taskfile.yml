@@ -13,7 +13,7 @@ tasks:
     cmds:
       - task: cachekey-root-js
   cachekey-root-js:
-    dir: '{{.ROOT_DIR}}'
+    dir: "{{.ROOT_DIR}}"
     generates:
       - .task-meta-cache-key
     cmds:
@@ -46,7 +46,7 @@ tasks:
     cmds:
       - task: cacheload-root-js
   cacheload-root-js:
-    dir: '{{.ROOT_DIR}}'
+    dir: "{{.ROOT_DIR}}"
     deps:
       - cachekey-root-js
     cmds:
@@ -86,7 +86,7 @@ tasks:
     cmds:
       - task: cachesave-root-js
   cachesave-root-js:
-    dir: '{{.ROOT_DIR}}'
+    dir: "{{.ROOT_DIR}}"
     deps:
       - cachekey-root-js
     cmds:
@@ -124,7 +124,7 @@ tasks:
     cmds:
       - task: deps-root-js
   deps-root-js:
-    dir: '{{.ROOT_DIR}}'
+    dir: "{{.ROOT_DIR}}"
     cmds:
       - cmd: pnpm install --frozen-lockfile
       - cmd: pnpm peers check
@@ -135,7 +135,7 @@ tasks:
     cmds:
       - task: lint-root-js
   lint-root-js:
-    dir: '{{.ROOT_DIR}}'
+    dir: "{{.ROOT_DIR}}"
     cmds:
       - cmd: pnpm lint
   lintfix:
@@ -145,6 +145,6 @@ tasks:
     cmds:
       - task: lintfix-root-js
   lintfix-root-js:
-    dir: '{{.ROOT_DIR}}'
+    dir: "{{.ROOT_DIR}}"
     cmds:
       - cmd: pnpm lintfix
